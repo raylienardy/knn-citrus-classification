@@ -1,0 +1,133 @@
+Alph@DESKTOP-BF1UN64 MINGW64 /e/kuliah/Belajar/Semester 4/Pengolahan Citra Digital/project/jeruk_knn_750 (main)
+$ python main.py
+=== Ekstraksi fitur train ===
+[INFO] Total gambar di data\train: 1350
+Ekstraksi train: 100%|█| 1350/1350 [01:42<00:00, 13.21img/s, kelas=
+[OK] Dataset tersimpan ke: features\train_features.csv
+=== Ekstraksi fitur validation ===
+[INFO] Total gambar di data\val: 450
+Ekstraksi val: 100%|█| 450/450 [00:34<00:00, 13.15img/s, kelas=jeru
+[OK] Dataset tersimpan ke: features\val_features.csv
+=== Ekstraksi fitur test ===
+[INFO] Total gambar di data\test: 450
+Ekstraksi test: 100%|█| 450/450 [00:35<00:00, 12.75img/s, kelas=jer
+[OK] Dataset tersimpan ke: features\test_features.csv
+=== Load dataset ===
+=== Standardisasi fitur ===
+=== Cari K terbaik dari validation ===
+  - Evaluasi k=1
+    Validation Accuracy = 0.9756
+  - Evaluasi k=3
+    Validation Accuracy = 0.9800
+  - Evaluasi k=5
+    Validation Accuracy = 0.9711
+  - Evaluasi k=7
+    Validation Accuracy = 0.9689
+  - Evaluasi k=9
+    Validation Accuracy = 0.9667
+
+[INFO] K terbaik dari validation: 3 dengan akurasi 0.9800
+
+=== Evaluasi akhir pada test ===
+
+--- Validation Result ---
+Confusion Matrix
+Aktual \ Prediksi
+                   jeruk_lemon    jeruk_manis    jeruk_nipis
+    jeruk_lemon            150              0              0
+    jeruk_manis              4            145              1
+    jeruk_nipis              3              1            146
+Hasil Evaluasi Per Kelas
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_lemon
+TP           : 150
+FP           : 7
+FN           : 0
+TN           : 293
+Accuracy     : 0.9844
+Error Rate   : 0.0156
+Recall       : 1.0000
+Specificity  : 0.9767
+Precision    : 0.9554
+F1-Score     : 0.9772
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_manis
+TP           : 145
+FP           : 1
+FN           : 5
+TN           : 299
+Accuracy     : 0.9867
+Error Rate   : 0.0133
+Recall       : 0.9667
+Specificity  : 0.9967
+Precision    : 0.9932
+F1-Score     : 0.9797
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_nipis
+TP           : 146
+FP           : 1
+FN           : 4
+TN           : 299
+Accuracy     : 0.9889
+Error Rate   : 0.0111
+Recall       : 0.9733
+Specificity  : 0.9967
+Precision    : 0.9932
+F1-Score     : 0.9832
+------------------------------------------------------------------------------------------
+Overall Accuracy   : 0.9800
+Overall Error Rate : 0.0200
+
+--- Test Result ---
+Confusion Matrix
+Aktual \ Prediksi
+                   jeruk_lemon    jeruk_manis    jeruk_nipis
+    jeruk_lemon            145              1              4
+    jeruk_manis             13            137              0
+    jeruk_nipis              4              4            142
+Hasil Evaluasi Per Kelas
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_lemon
+TP           : 145
+FP           : 17
+FN           : 5
+TN           : 283
+Accuracy     : 0.9511
+Error Rate   : 0.0489
+Recall       : 0.9667
+Specificity  : 0.9433
+Precision    : 0.8951
+F1-Score     : 0.9295
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_manis
+TP           : 137
+FP           : 5
+FN           : 13
+TN           : 295
+Accuracy     : 0.9600
+Error Rate   : 0.0400
+Recall       : 0.9133
+Specificity  : 0.9833
+Precision    : 0.9648
+F1-Score     : 0.9384
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_nipis
+TP           : 142
+FP           : 4
+FN           : 8
+TN           : 296
+Accuracy     : 0.9733
+Error Rate   : 0.0267
+Recall       : 0.9467
+Specificity  : 0.9867
+Precision    : 0.9726
+F1-Score     : 0.9595
+------------------------------------------------------------------------------------------
+Overall Accuracy   : 0.9422
+Overall Error Rate : 0.0578
+
+[OK] Hasil disimpan ke folder 'results'
+[TOTAL TIME] 172.13 detik
+
+Alph@DESKTOP-BF1UN64 MINGW64 /e/kuliah/Belajar/Semester 4/Pengolahan Citra Digital/project/jeruk_knn_750 (main)
+$ 

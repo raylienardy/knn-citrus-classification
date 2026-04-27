@@ -1,0 +1,40 @@
+Hasil Evaluasi Per Kelas
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_lemon
+TP           : 150
+FP           : 26
+FN           : 0
+TN           : 324
+Accuracy     : 0.9480
+Error Rate   : 0.0520
+Recall       : 1.0000
+Specificity  : 0.9257
+Precision    : 0.8523
+F1-Score     : 0.9202
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_manis
+TP           : 165
+FP           : 4
+FN           : 35
+TN           : 296
+Accuracy     : 0.9220
+Error Rate   : 0.0780
+Recall       : 0.8250
+Specificity  : 0.9867
+Precision    : 0.9763
+F1-Score     : 0.8943
+------------------------------------------------------------------------------------------
+Kelas        : jeruk_nipis
+TP           : 121
+FP           : 34
+FN           : 29
+TN           : 316
+Accuracy     : 0.8740
+Error Rate   : 0.1260
+Recall       : 0.8067
+Specificity  : 0.9029
+Precision    : 0.7806
+F1-Score     : 0.7934
+------------------------------------------------------------------------------------------
+Overall Accuracy   : 0.8720
+Overall Error Rate : 0.1280

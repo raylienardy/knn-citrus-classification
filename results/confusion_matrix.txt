@@ -1,0 +1,6 @@
+Confusion Matrix
+Aktual \ Prediksi
+                   jeruk_lemon    jeruk_manis    jeruk_nipis
+    jeruk_lemon            150              0              0
+    jeruk_manis              1            165             34
+    jeruk_nipis             25              4            121
