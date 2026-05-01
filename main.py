@@ -14,9 +14,9 @@ from src.evaluate import (
 
 # disini bebas mau ubah bagaimana, pastikan nama foldernya sesuai
 # 500
-TRAIN_DIR = "data/500/train"
-VAL_DIR = "data/500/val"
-TEST_DIR = "data/500/test"
+# TRAIN_DIR = "data/500/train"
+# VAL_DIR = "data/500/val"
+# TEST_DIR = "data/500/test"
 
 # 750
 # TRAIN_DIR = "data/750/train"
@@ -24,9 +24,9 @@ TEST_DIR = "data/500/test"
 # TEST_DIR = "data/750/test"
 
 # 1000
-# TRAIN_DIR = "data/1000/train"
-# VAL_DIR = "data/1000/val"
-# TEST_DIR = "data/1000/test"
+TRAIN_DIR = "data/1000/train"
+VAL_DIR = "data/1000/val"
+TEST_DIR = "data/1000/test"
 
 FEATURES_DIR = "features"
 RESULTS_DIR = "results"
